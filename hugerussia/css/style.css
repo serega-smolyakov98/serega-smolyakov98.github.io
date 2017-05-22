@@ -951,7 +951,7 @@ tr:nth-child(odd) {
 .title__contact {
 	font-size: 45px;
 	color: #00a2e8;
-	padding-top: 80px;
+	padding-top: 128px;
 	padding-bottom: 20px;
 	text-align: center;
 }
@@ -1120,6 +1120,7 @@ form .button:hover {
 	font-size: 22px;
 	font-weight: bold;
 	padding-left: 160px;
+	padding: 10px;
 }
 
 .contact__logo img {
