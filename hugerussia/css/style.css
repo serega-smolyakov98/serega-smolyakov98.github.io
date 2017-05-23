@@ -365,6 +365,87 @@
 	border: 4px solid #6d3677;
 	border-radius: 8px;
 	background-color: #fff;
+	width: 500px;
+	overflow: visible;
+	min-height: 299px;
+}
+
+.b-orange {
+	border-color: #eb611e;
+}
+
+.head__product-price {
+	display: inline-block;
+	text-transform: none;
+	position: relative;
+}
+
+.price {
+	font-size: 30px;
+	position: absolute;
+	border: 4px solid #6d3677;
+	border-radius: 13px;
+	padding: 9px;
+	top: 8px;
+	left: 105px;
+	z-index: 10;
+	background-color: #fff;
+	min-width: 212px;
+}
+
+.price__des {
+	font-size: 14px;
+	position: relative;
+	top: 6px;
+	left: -110px;
+}
+
+.violet {
+	color: #6d3677;
+}
+
+.orange {
+	color: #eb611e;
+	border-color: #eb611e;
+}
+
+@media screen and (max-width: 1025px) {
+	.head__product {
+		overflow: hidden;
+		height: auto;
+	}
+
+	.price {
+		position: relative;
+		padding: 0;
+		border: none;
+		top: 0;
+		left: 0;
+	}
+
+	.price__des {
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+
+	.head__products {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+.head__product {
+	border: 4px solid #6d3677;
+	border-radius: 8px;
+	background-color: #fff;
 	overflow: hidden;
 	width: 500px;
 }
@@ -400,11 +481,13 @@
 	height: 3px;
 	background-color: #EB351E;
 	top: 15px;
-	left: -112px;
+	left: -110px;
+}
 }
 
+
 .wrap__container {
-	/*background-image: url(../images/teeth-fon.png);*/
+	background-image: url(../images/teeth-fon.png);
 	background-size: cover;
 	background-size: 800px;
 	padding: 20px;
@@ -442,9 +525,7 @@
 }
 
 @media screen and (max-width: 1920px) and (min-width: 1920px) {
-	.product2 {
-		min-height: 971px;
-	}
+	
 }
 
 .product__item {
@@ -467,7 +548,7 @@
 	vertical-align: middle;
 }
 
-.product__priсe {
+/*.product__priсe {
 	display: inline-block;
 	padding-left: 26px;
 }
@@ -482,14 +563,22 @@
 .product__priсe p:nth-child(2) {
 	font-size: 12px;
 }
-
+*/
 .product2 .product__description {
 	padding-bottom: 3px;
 }
 
 .img {
+	width: 400px;
+	height: auto;
 	position: relative;
 	top: 6px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.img img {
+	width: 100%;
 }
 
 .img .product__picture {
@@ -716,10 +805,11 @@ tr:nth-child(odd) {
 
 .trig__content {
 	max-width: 900px;
+	margin-top: 65px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	background-color: #fff;
+	background-color: rgba(255, 255, 255, .77);
 }
 
 .trig__content h1 {
@@ -752,6 +842,13 @@ tr:nth-child(odd) {
 	padding-top: 148px;
 }
 
+.quality__triggers {
+	width: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .quality__text {
 	font-size: 20px;
 	display: flex;
@@ -767,14 +864,11 @@ tr:nth-child(odd) {
 .qa__text__item {
 	color: #2C65AF;
 	display: block;
-	max-width: 600px;
+	max-width: 515px;
 	padding-top: 20px;
 }
 
-.quality__triggers {
-	width: 100%;
-	text-align: center;
-}
+
 
 .trig {
 	display: block;
@@ -784,7 +878,7 @@ tr:nth-child(odd) {
 .trig__text {
 	font-size: 20px;
 	display: inline-block;
-	max-width: 700px;
+	max-width: 545px;
 	text-align: left;
 	
 }
