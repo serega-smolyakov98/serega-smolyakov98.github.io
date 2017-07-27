@@ -1,0 +1,783 @@
+
+
+
+.content {
+    width: 100%;
+    font-size: 0;
+}
+
+.head {
+    width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.head__logo {
+    font-family: 'League Gothic';
+    color: #076e9f;
+    text-transform: uppercase;
+    font-size: 32px;
+    padding-top: 16px;
+    padding-bottom: 23px;
+    text-align: center;
+}
+
+.logo__des {
+    color: #22aaec;
+}
+
+.social-networks {
+   position: absolute;
+   right: 30px;
+   top: 16px;
+}
+
+.sprite {
+    background-image: url(../images/spritesheet.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 3.5px;
+    margin-right: 3.5px;
+}
+
+.sprite:hover {
+    background-image: url(../images/spritesheet-hover.png);
+}
+
+.sprite-facebook {
+    width: 16px;
+    height: 16px;
+    background-position: -5px -5px;
+}
+
+.sprite-delicious {
+    width: 16px;
+    height: 16px;
+    background-position: -31px -5px;
+}
+
+.sprite-evernote {
+    width: 14px;
+    height: 18px;
+    background-position: -57px -5px;
+}
+
+.sprite-linked-in {
+    width: 16px;
+    height: 16px;
+    background-position: -81px -5px;
+}
+
+.sprite-pinterest {
+    width: 16px;
+    height: 17px;
+    background-position: -107px -5px;
+}
+
+.sprite-twitter {
+    width: 17px;
+    height: 14px;
+    background-position: -133px -5px;
+}
+
+.nav {
+    font-family: 'Arial';
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #707070;
+    text-align: center;
+    border-bottom: 2px solid #22aaec;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav__li {
+    display: inline-block;
+    padding-left: 21.5px;
+    padding-right: 21.5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 16px;
+    border: 1px solid transparent;
+   position: relative;
+}
+
+.nav__li:hover {
+    color: #fff;
+    border: 1px solid #045279;
+    background-image: linear-gradient(to bottom, #0883b1, #06588c);
+}
+
+.nav__li:active {
+    top: 2px;
+}
+
+.header__wrap {
+    width: 100%;
+    height: 433px;
+    background-image: url(../images/cognifide.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 91px;
+}
+
+.header__title, 
+.header__title__des {
+    font-family: 'League Gothic';
+    color: #076e9f;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 18px 33px 16px;
+    background-color: rgba(255, 255, 255, .8);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__title {
+    font-size: 60px;
+    margin-bottom: 19px;
+    max-width: 289px;
+}
+
+.header__title__des {
+    font-size: 30px;
+    padding: 13px 11px 13px 11px;
+    max-width: 784px;
+}
+
+.header__title__art {
+    color: #22aaec;
+}
+
+.header__people-say {
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    height: 120px;
+    border-bottom: 2px solid #22aaec;
+}
+
+.peoples {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    margin-top: -120px;
+}
+
+.people {
+    display: inline-block;
+    padding-top: 25px;
+    padding-left: 43px;
+    padding-right: 43px;
+    position: relative;
+}
+
+.people-img {
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    left: 11px;
+}
+
+.people-text {
+    display: inline-block;
+    max-width: 161px;
+    background-color: rgba(255, 255, 255, .9);
+    height: 69px;
+    width: 154px;
+    padding-left: 54px;
+    padding-top: 7px;
+
+}
+
+.people-say {
+    font-style: italic;
+    font-size: 9px;
+    color: #515151;
+    line-height: 14px;
+
+}
+
+.people-say__des {
+    font-size: 9px;
+    color: #828282;
+    padding-top: 5px;
+}
+
+.wrap {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+}
+
+.aside__wrap {
+    width: 198px;
+    padding-right: 0px;
+    margin-left: 35px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.about-author__heading,
+.related-posts__heading,
+.currency__heading {
+    color: #076e9f;
+    font-size: 22px;
+    font-family: 'League Gothic';
+    text-transform: uppercase;
+}
+
+.about-author__heading {
+    padding-top: 33px;
+    padding-bottom: 19px;
+}
+
+.related-posts__heading {
+    padding-top: 18px;
+    padding-bottom: 16px;
+}
+
+.currency__heading {
+    padding-top: 23px;
+    padding-bottom: 12px;
+}
+
+.about-author__text {
+    font-size: 10px;
+    color: #5c5c5c;
+    line-height: 18px;
+}
+
+.about-author {
+    border-bottom: 1px dotted #d5d5d5;
+
+}
+
+.about-author__text {
+    padding-bottom: 18px;
+}
+
+.a-a__text__art {
+    color: #076e9f;
+    font-family: 'Arial';
+    font-weight: bold;
+}
+
+.related-posts {
+   border-bottom: 1px dotted #d5d5d5;
+   padding-bottom: 15px; 
+}
+
+.related-post {
+    padding-bottom: 11px;
+}
+
+.related-posts__img {
+    vertical-align: top;
+}
+
+.related-post__text {
+    display: inline-block;
+
+}
+
+.r-p__text__title {
+    padding-left: 19px;
+}
+
+.r-t__text__comments,
+.r-p__text__title {
+    color: #5c5c5c;
+    text-transform: uppercase;
+    font-family: 'Arial';
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+.r-t__text__comments {
+    font-weight: normal;
+    font-style: italic;
+    padding-left: 36px;
+    position: relative;
+}
+
+.r-t__text__comments::before {
+    content: url(../images/post_comments.png);
+    width: 16px;
+    height: 16px;
+    display: block;
+    position: absolute;
+    top: 2px;
+    left: -2px;
+    padding-left: 18px;
+}
+
+.currency {
+    border-bottom: 1px dotted #d5d5d5;
+
+}
+
+.currency__heading__table {
+    padding-bottom: 44px;
+}
+
+.table-row td {
+    font-family: 'Arial';
+    font-size: 10px;
+    background-color: #c7e9fa;
+    width: 39px;
+    height: 19px;
+    text-align: center;
+}
+
+.table-row__head  td {
+    background-color: #076e9f;
+    color: #fff;
+}
+
+.container__wrap { 
+    border: 1px dotted #d5d5d5;
+    border-top: 2px solid #22aaec;
+    max-width: 752px;
+    position: relative;
+    margin-top: -13px;
+    z-index: 50;
+    background-color: #fff;
+}
+
+.you-should__heading {
+    color: #076e9f;
+    font-family: 'League Gothic';
+    font-size: 32px;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 17px;
+    padding-left: 13px;
+}
+
+.y-s__user,
+.y-s__date {
+    font-family: 'Arial';
+    font-size: 8px;
+    color: #fff;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    background-color: #22aaec;
+    border: 1px solid #22aaec;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 18px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.y-s__date {
+    position: relative;
+    margin-left: 13px;
+}
+
+.y-s__user {
+    position: relative;
+    overflow: hidden;
+    z-index: auto;
+    border-bottom: none;
+    margin-left: 10px;
+   
+}
+
+.y-s__user::before {
+    content: url(../images/user.png);
+    display: block;
+    width: 46px;
+    height: 49px;
+    position: absolute;
+    top: 1px;
+    left: 0;
+    
+}
+
+.y-s__text {
+    font-family: 'Arial';
+    font-size: 10px;
+    color: #5c5c5c;
+    line-height: 18px;
+    max-width: 555px;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 27px;
+    padding-top: 3px;
+}
+
+.read-more {
+    font-family: 'Arial';
+    font-size: 10px;
+    font-weight: bold;
+    display: block;
+    width: 72px;
+    height: 23px;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #045279;
+    background-image: linear-gradient(to bottom, #0883b1, #06588c);
+    padding-top: 4px;
+    box-shadow: 0px 3px #000, 0px 5px #d6d6d6;
+    position: relative;
+    margin-top: 28px;
+    margin-left: 152px;
+    margin-bottom: 18px;
+    cursor: pointer;
+}
+
+.read-more::before {
+    content: '';
+    display: block;
+    width: 70px;
+    height: 1px;
+    background-color: #46a3c5;
+    position: absolute;
+    top: 0;
+}
+
+.read-more:hover {
+    opacity: .8;
+}
+
+.read-more:active {
+    top: 1px;
+}
+
+.y-s__pos-a {
+    position: absolute;
+    top: 170px;
+    left: 581px;
+}
+
+.y-s__des {
+    color: #076e9f;
+    font-family: 'Arial';
+    font-size: 10px;
+    width: 180px;
+    height: 26px;
+    background-color: #90d4f5;
+    text-align: center;
+    position: relative;
+
+}
+
+.y-s__des::after {
+    content: '';
+    display: block;
+    position: absolute;
+    border: 5px solid transparent; border-left: 5px solid #076e9f; border-top: 5px solid #076e9f;
+    top: 26px;
+    left: 170px;
+}
+
+.y-s__des__comments,
+.y-s__des__likes {
+    display: inline-block;
+    padding-left: 35px;
+    padding-top: 9px;
+    position: relative;
+
+}
+
+.y-s__des__likes::before {
+    content: url(../images/up.png);
+    display: block;
+    width: 16px;
+    height: 15px;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+
+.y-s__des__comments::before {
+    content: url(../images/comments.png);
+    display: block;
+    width: 16px;
+    height: 15px;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+
+.news__wrap {
+    border: 1px dotted #d5d5d5;
+    border-right: none;
+    border-top: none;
+}
+
+.new {
+    background-color: #eaeaea;
+    width: 363px;
+    min-height: 228px;
+    border: 1px solid #eaeaea;
+    border-top-left-radius: 12px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin-top: 19px;
+    margin-bottom: 28px;
+    margin-left: 13px;
+    margin-right: 14px;
+    position: relative;
+}
+
+.effect2 {
+  position: relative;
+}
+
+.effect2:before, 
+.effect2:after {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 2px;
+  width: 38%;
+  top: 90%;
+  background: #777;
+  -webkit-box-shadow: 0 15px 6px #777;
+  -moz-box-shadow: 0 15px 6px #777;
+  box-shadow: 0 15px 6px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+
+.effect2:after {
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 1px;
+  left: auto;
+}
+
+
+.new__heading {
+    color: #076e9f;
+    font-size: 22px;
+    font-family: 'League Gothic';
+    text-transform: uppercase;
+    padding-top: 25px;
+    padding-left: 29px;
+    padding-bottom: 5px;
+}
+
+.new__des {
+    font-family: 'Arial';
+    font-size: 10px;
+    color: #878787; 
+    padding-left: 29px;
+}
+
+.new__des__art {
+    color: #076e9f;
+}
+
+.new__text {
+    color: #5c5c5c;
+    font-family: 'Arial';
+    line-height: 18px;
+    font-size: 10px;
+    max-width: 260px;
+    padding-left: 29px;
+    padding-top: 34px;
+    position: relative;
+}
+
+.new__text-padding {
+    padding-top: 13px;
+}
+
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
+    color: #076e9f;
+}
+
+.new__items {
+    font-family: 'Arial';
+    font-size: 10px;
+    color: #076e9f;
+    background-color: #f4f3f3;
+    height: 30px;
+    position: relative;
+    width: calc(100% + 2px);
+    left: -1px;
+    bottom: -1px;
+}
+
+.new__items-bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.new-likes,
+.new-comments {
+    display: inline-block;
+    padding-left: 34px;
+    padding-top: 11px;
+    position: relative;
+    right: -254px;
+}
+
+.new-likes::before {
+    content: url(../images/up-blue.png);
+    display: block;
+    width: 16px;
+    height: 15px;
+    position: absolute;
+    top: 9px;
+    left: 13px;
+}
+
+.new-comments::before {
+    content: url(../images/comments-blue.png);
+    display: block;
+    width: 16px;
+    height: 15px;
+    position: absolute;
+    top: 9px;
+    left: 13px;
+}
+
+.new__your-ad-here {
+    width: 756px;
+    height: 80px;
+    background-image: linear-gradient(to bottom, #e8e7e7, #f4f3f3);
+    color: #636363;
+    font-family: 'Arial';
+    font-size: 12px;
+    text-align: center;
+    padding-top: 32px;
+    margin-left: 13px;
+    margin-bottom: 33px;
+    position: relative;
+}
+
+.effect2-2 {
+  position: relative;
+}
+
+.effect2-2:before, 
+.effect2-2:after {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 20px;
+  left: 2px;
+  width: 45%;
+  top: 68%;
+  background: #777;
+  -webkit-box-shadow: 0 15px 6px #777;
+  -moz-box-shadow: 0 15px 6px #777;
+  box-shadow: 0 15px 6px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+
+.effect2-2:after {
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 1px;
+  left: auto;
+}
+
+.float-container {
+    display: inline-block;
+}
+
+.map__wrap {
+    width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.map__heading {
+    font-family: 'League Gothic';
+    font-size: 32px;
+    color: #076e9f;
+    text-transform: uppercase;
+    padding-top: 18px;
+    padding-bottom: 16px;
+    padding-left: 46px;
+}
+
+.map-border {
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.map {
+    border-top: 1px solid #bfbfbf;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+.footer__logo {
+    font-family: 'League Gothic';
+    color: #076e9f;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    display: inline-block;
+    
+}
+
+.logo__des {
+    color: #22aaec;
+}
+
+.f__nav {
+    font-family: 'Arial';
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #707070;   
+    padding-top: 17px;
+    padding-bottom: 17px;
+    display: inline-block;
+    margin-left: 560px;
+}
+
+.f__nav__li {
+    display: inline-block;
+    padding-left: 17px;
+    padding-right: 17px;
+    text-align: right;
+}
+
+.footer {
+    font-family: 'Arial';
+    font-size: 10px;
+    color: #787878;
+    border: 1px solid #eaeaea;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
