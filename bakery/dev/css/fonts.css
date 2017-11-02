@@ -1,0 +1,37 @@
+@font-face { 
+  font-family: 'scriptina-webfont'; 
+  src: url('../fonts/scriptina-webfont/scriptina-webfont.woff2') format('woff2'), 
+       url('../fonts/scriptina-webfont/scriptina-webfont.ttf')  format('truetype'),
+       url('../fonts/scriptina-webfont/scriptina-webfont.woff') format('woff'); 
+  font-weight: normal; 
+  font-style: normal; 
+}
+
+@font-face { 
+  font-family: 'Alegreya-Regular'; 
+  src: url('../fonts/Alegreya/Alegreya-Regular.otf')  format('opentype');
+  font-weight: normal; 
+  font-style: normal; 
+}
+
+@font-face { 
+  font-family: 'Alegreya-Bold'; 
+  src: url('../fonts/Alegreya/Alegreya-Bold.otf')  format('opentype');
+  font-weight: bold; 
+  font-style: normal; 
+}
+
+@font-face { 
+  font-family: 'PlayfairDisplay'; 
+  src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Bold.otf')  format('opentype');
+  font-weight: bold; 
+  font-style: normal; 
+}
+
+@font-face { 
+  font-family: 'Aller'; 
+  src: url('../fonts/Aller/Aller_Rg.ttf')  format('truetype');
+  font-weight: normal; 
+  font-style: normal; 
+}
+
