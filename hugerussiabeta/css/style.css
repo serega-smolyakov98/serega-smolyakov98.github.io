@@ -24,7 +24,17 @@
     .wrap__header .header__bar__tel {
       float: left;
       padding-top: 15px;
-      padding-left: 20px; }
+      padding-left: 20px;
+      margin-left: 25px;
+      position: relative; }
+      .wrap__header .header__bar__tel::before {
+        content: url(../images/phone-icon.png);
+        width: 36px;
+        height: 36px;
+        display: block;
+        position: absolute;
+        top: 25px;
+        left: -25px; }
       .wrap__header .header__bar__tel .tel__number {
         padding-top: 5px;
         padding-right: 40px;
@@ -33,7 +43,7 @@
         color: #fff;
         text-shadow: -1px -1px 0 #09a1e1, 1px -1px 0 #09a1e1, -1px 1px 0 #09a1e1, 1px 1px 0 #09a1e1; }
         .wrap__header .header__bar__tel .tel__number span {
-          color: #fff; }
+          color: #19F226; }
     .wrap__header .header__bar__nav {
       float: right;
       padding-top: 30px;
@@ -104,37 +114,39 @@
         padding-top: 2px;
         padding-left: 20px;
         padding-right: 20px; }
-  .wrap__header .header__product .product__sl {
-    width: 580px;
-    height: 410px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 3px solid #6d3677;
-    border-radius: 13px;
-    padding: 3px;
-    color: #6d3677;
-    text-align: center;
-    position: relative;
-    z-index: 1;
-    overflow: visible; }
-    .wrap__header .header__product .product__sl .sl__slide {
-      outline: none; }
-      .wrap__header .header__product .product__sl .sl__slide__des {
-        font-size: 22px;
-        position: absolute;
-        left: 65px;
-        bottom: -10px; }
-      .wrap__header .header__product .product__sl .sl__slide__price {
-        font-size: 30px;
-        position: absolute;
-        bottom: -52px;
-        right: 20px;
-        min-width: 212px;
-        padding: 9px;
-        background-color: #fff;
-        border: 3px solid #6d3677;
-        border-radius: 13px;
-        background-color: #fff;
-        z-index: 10; }
+  .wrap__header .header__product {
+    margin: 50px; }
+    .wrap__header .header__product .product__sl {
+      width: 580px;
+      height: 410px;
+      background-color: rgba(255, 255, 255, 0.8);
+      border: 3px solid #6d3677;
+      border-radius: 13px;
+      padding: 3px;
+      color: #6d3677;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+      overflow: visible; }
+      .wrap__header .header__product .product__sl .sl__slide {
+        outline: none; }
+        .wrap__header .header__product .product__sl .sl__slide__des {
+          font-size: 22px;
+          position: absolute;
+          left: 65px;
+          bottom: -10px; }
+        .wrap__header .header__product .product__sl .sl__slide__price {
+          font-size: 30px;
+          position: absolute;
+          bottom: -52px;
+          right: 20px;
+          min-width: 212px;
+          padding: 9px;
+          background-color: #fff;
+          border: 3px solid #6d3677;
+          border-radius: 13px;
+          background-color: #fff;
+          z-index: 10; }
 
 .slick-list {
   overflow: visible; }

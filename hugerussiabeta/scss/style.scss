@@ -31,6 +31,19 @@
 				float: left;
 				padding-top: 15px;
 				padding-left: 20px;
+				margin-left: 25px;
+				position: relative;
+
+				&::before {
+					content: url(../images/phone-icon.png);
+					width: 36px;
+					height: 36px;
+					display: block;
+					position: absolute;
+					top: 25px;
+					left: -25px;
+					
+				}
 
 				.tel__number {
 					padding-top: 5px;
@@ -45,7 +58,7 @@
 			1px 1px 0 #09a1e1;
 
 				    span {
-				    	color: #fff;
+				    	color: #19F226;
 				    }
 				}
 			}
@@ -152,7 +165,7 @@
 		}
 
 		&__product {
-			
+			margin: 50px;
 			.product__sl {
 				width: 580px;
 				height: 410px;
